@@ -1,40 +1,3 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :  
-# Primary Color 01:  
-# Primary Color 02:   
-# Primary Color 03:  
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
@@ -97,7 +60,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   src: url('../fonts/Montserrat/Montserrat-Bold.ttf'); 
 }
 
-/* @import url(https://fonts.googleapis.com/css2?family=Fascinate&display=swap); */
 /*//////////////////////////////////////////////////////////////////
 [ RS PLUGIN ]*/
 
@@ -328,8 +290,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .logo img {
-  width: 200%;
-  height: 200%;
+  width: 70%;
+  height: 70%;
 }
 
 
@@ -370,7 +332,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   font-family: Poppins-Medium;
   font-size: 14px;
   color: #a44f42;
-  /* color: #333; */
   padding: 5px 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -508,7 +469,6 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   height: 15px;
   padding: 5px;
   background-image: radial-gradient(circle at 0% 30%, #a44f42, #f77a20)
-  /* background-color: #717fe0; */
 }
 
 /*---------------------------------------------*/
@@ -682,8 +642,8 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .logo-mobile img {
-  max-width: calc(290% - 20px);
-  max-height: 290%;
+  max-width: calc(90% - 20px);
+  max-height: 70%;
   position:absolute;
   top: 0; 
   left: 0; 
@@ -1160,12 +1120,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .rs1-select2 .select2-container .select2-results__option[aria-selected="true"] {
-  background: #6c7ae0;
+  background: #ec7424;
   color: white;
 }
 
 .rs1-select2 .select2-container .select2-results__option--highlighted[aria-selected] {
-  background: #6c7ae0;
+  background: #ec7424;
   color: white;
 }
 
@@ -1268,7 +1228,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .arrow-slick1:hover {
-  color: #7280e0;
+  color: #ec7424;
 }
 
 .next-slick1 {
@@ -1297,7 +1257,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 }
 
 .rs2-slick1 .arrow-slick1:hover {
-  color: #7280e0;
+  color: #ec7424;
 }
 
 .wrap-slick1-dots {
@@ -2136,7 +2096,11 @@ input.num-product::-webkit-inner-spin-button {
   left: 12px;
 }
 
-
+.hd{
+  padding: 20px;
+  background-image: radial-gradient(circle at 0% 30%, #ec1115, #343ae2)!important;
+  color: #fff;
+}
 
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
@@ -2180,6 +2144,7 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Regular;
   font-size: 14px;
   line-height: 1.466667;
+  color: #f77a20;
 }
 
 .stext-105 {
@@ -2200,6 +2165,11 @@ input.num-product::-webkit-inner-spin-button {
   font-size: 13px;
   line-height: 1.923;
   color: black;
+  
+}
+
+.footer{
+  background-image: radial-gradient(circle at 0% 30%, #ec1115, #343ae2)!important;
 }
 
 .stext-108 {
@@ -2403,6 +2373,7 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Bold;
   font-size: 50px;
   line-height: 1.1;
+  color: #f77a20;
 }
 
 .ltext-106 {
@@ -2677,10 +2648,14 @@ input.num-product::-webkit-inner-spin-button {
 ==================================================================*/
 .bg-none {background-color: transparent;}
 .bg0 {background-color: #fff;}
+.bg-img{
+  background-image: url(../images/banner-product.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .bg1 {background-image: radial-gradient(circle at 0% 30%, #a44f42, #f77a20);box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20); }
-/* .bg1 {background-color: #717fe0;} */
 .bg2 {background-color: #e6e6e6;}
-/* .bg3 {background-color: #222;} */
 .bg3{background-image: radial-gradient(circle at 0% 30%, #a44f42, #f77a20);box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20); }
 .bg5 {background-color: rgba(0,0,0,0.5);}
 .bg6 {background-color: #f2f2f2;}
@@ -3119,7 +3094,7 @@ input.num-product::-webkit-inner-spin-button {
   box-shadow: none;
   /* border: 1px solid rgb(241, 190, 198); */
   /* background-image: none; */
-  background-color: rgb(241, 190, 198);
+  background-color: #bd8f7f;
   color: white;
 }
 
